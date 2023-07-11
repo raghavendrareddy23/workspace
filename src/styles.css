@@ -1,0 +1,60 @@
+.Icon-color {
+  color: gray !important;
+}
+.Icon-color1 {
+  color: red !important;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.pagination {
+  display: flex !important;
+  justify-content: center !important;
+  margin-top: 16px !important;
+}
+
+.pagination-buttons {
+  display: flex !important;
+  flex-wrap: wrap !important;
+  justify-content: center !important;
+  align-items: center !important;
+  gap: 10px !important;
+  margin-top: 10px !important;
+}
+
+.PaginationButton {
+  border-radius: 50% !important;
+  width: 1px !important;
+  height: 50px !important;
+  margin: 0 !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+.DeleteSelectedButton {
+  display: flex !important;
+  background-color: red !important;
+  margin-top: 16px !important;
+  border-radius: 20px !important;
+  text-transform: capitalize !important;
+}
+
+.ActivePage {
+  background-color: #ccc !important;
+}
+
+@media (min-width: 768px) {
+  .pagination {
+    justify-content: center !important;
+  }
+
+  .DeleteSelectedButton {
+    margin-top: 0;
+    margin-right: 10px;
+  }
+}
